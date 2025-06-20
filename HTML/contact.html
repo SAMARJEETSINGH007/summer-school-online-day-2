@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<title>Contact</title>
+	</head>
+	<body>
+		<main>
+		<div style="display:inline;top:50%;position:fixed;left:50%;transform:translate(-50%,-50%);">
+				<h3>Demo Submission form.</h3>
+			<form action="/action.php"style="border:dotted 1px blue;width:264px">
+				Name:<input type="text" placeholder="Enter name here"></input>
+				<br>
+				<br>
+				Email-id<input type="email" placeholder="enter your email"></input>
+				<br>
+				<br>
+				PhoneNumber<input type="tel" maxlength="10" minlength="10"></input>
+				<br>
+				<br>
+				Message<textarea placeholder="Enter anything here!"></textarea>
+				<br>
+				<br>
+				<p>Preferred method of contact</p>
+				Email:<input type="checkbox" id="contactMethod"name="Email"></input>
+				Phone:<input type="checkbox" id="contactMethod"name="Phone" required></input>
+				Text:<input type="checkbox" id="contactMethod"name="Text"></input>
+				
+				<br>
+				<br>
+				<p>Inquiry type</p>
+				<label for ="id1">
+				<input type="radio" value="General" name="family1"  id="id1">General
+				</label>
+				<label for ="idB">
+				<input type="radio" name="family1" value="Buisness" id="idB">Buisness</input>
+				</label>
+				<label for ="idC">
+				<input type="radio" name="family1" value="Support" id="idC">Support</input>
+				</label>
+				<p>Please choose which state are you from</p>
+				<select name="city" id="dropDownList" style="position:relative;">
+					<option value="Delhi">Delhi</option>
+					<option value="Mumbai">Mumbai</option>
+					<option value="Pune">Pune</option>
+					<option value="Kolkata">Kolkata</option>
+					<option value="Chennai">Chennai</option>
+				</select>
+				<br>
+				Date:<input type="date"></input>
+				<br>
+				<button id="push">PUSH</button>				
+			</form>
+			</div>
+		</main>
+		<aside style="position:fixed;display:inline;border:solid 2px red;left:45%"><input type="range"></input></aside>
+	</body>
+</html>
+<!--Name (text input)
+Email (email input)
+Phone number (tel input)
+Message (textarea)
+Checkboxes for preferred contact methods (Email, Phone, Text)
+Radio buttons for inquiry type (General, Business, Support)
+Submit button-->
