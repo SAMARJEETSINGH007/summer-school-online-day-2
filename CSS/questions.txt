@@ -1,0 +1,123 @@
+🎯 Assignment Title: Build Your Personal Profile Card
+📝 Objective:
+Apply your knowledge of:
+Inline, Internal, and External CSS
+
+
+Basic Selectors: element, class, ID
+
+
+Grouping, Universal, Descendant, and Attribute Selectors
+
+
+
+📂 Instructions:
+1. Create 3 files:
+index.html
+
+
+style.css
+
+
+readme.txt (brief explanation of what CSS type and selectors you used where)
+
+
+2. HTML Requirements:
+Build a simple profile card with:
+Your name (inside an <h1> tag)
+
+
+A short bio (inside a <p> tag)
+
+
+A profile image (<img> tag)
+
+
+A list of your 3 favorite hobbies
+
+
+A "Contact Me" section with:
+Email (use mailto:) (how to use)
+LinkedIn or Instagram profile
+
+
+3. CSS Requirements:
+Inline CSS: Apply at least one inline style (e.g., background color on a section)
+
+
+Internal CSS: Use a <style> block inside the HTML head for some styles
+
+
+External CSS: Link the style.css file and apply most of your styles through it
+
+
+4. Selectors to Use:
+At least one ID selector (e.g., #profile-pic)
+
+
+At least one class selector (e.g., .bio)
+
+
+Use element selectors (e.g., p, h1)
+
+
+Use group selectors (e.g., h1, h2)
+
+
+Use descendant selector (e.g., .contact p)
+
+
+Use attribute selector (e.g., a[href])
+
+
+
+✅ Bonus Challenge (Optional):
+Add a hover effect on the contact links.
+
+
+Add a border or shadow to the profile card using class selector.
+
+
+
+
+📤 Submission Guidelines
+🔹 A Google Form will be shared with you for this assignment.
+ 🔹 Everyone must submit the GitHub repository link through that form.
+ 🔹 The repository name must strictly follow this format:
+summer-school-online-day-x
+(Replace x with the appropriate day number) x=2 for this assignment
+🔹 Make sure your repository:
+Is public
+
+
+Contains the following files:
+
+
+index.html
+
+
+style.css
+
+
+readme.txt (describes which selectors and types of CSS were used)
+
+
+
+✅ Before You Submit – Checklist:
+Does your profile card include all required sections?
+
+
+Did you use inline, internal, and external CSS?
+
+
+Did you apply all the required selectors?
+
+
+Is your repository named correctly?
+
+
+Is your GitHub repo public and accessible?
+
+
+Deadline : 23-06-2025 4:59PM.
+
